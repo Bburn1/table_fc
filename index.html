@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border: 2px solid teal;
+            border-spacing: unset;
+        }
+        td{
+            padding: 6px;
+
+            border: 1px solid teal;
+        }
+        tr{
+            border: 5px solid teal;
+        }
+        caption{padding-right: 300px;
+        padding-bottom: 10px;}
+    </style>
+</head>
+<body>
+    
+    <table>
+        <caption>Информация о столицах</caption>
+        <thead>
+            <tr >
+                <td rowspan="2">Страна</td>
+                <td rowspan="2">Столица</td>
+                <td colspan="2" rowspan="1">Информация</td>
+                <td rowspan="2" >Примечание</td>
+            </tr>
+            <tr><td>Население</td><td>Площадь</td></tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>Британия</td>
+                <td>Лондон</td>
+                <td>126216</td>
+                <td>12343</td>
+                <td>Британцы</td>
+            </tr>
+            <tr>
+                <td>Сша</td>
+                <td>Вашингтон</td>
+                <td>99999</td>
+                <td>42154</td>
+                <td>Американцы</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Нидерналанды</td>
+                <td>Амстердам</td>
+                <td>6125</td>
+                <td>8772</td>
+                <td>Нидерладнцы</td>
+            </tr>
+            <tr>
+                <td>Гаага</td>
+                <td>1111</td>
+                <td>2222</td>
+                <td>Нидерладнцы</td>
+            </tr>
+            <tr>
+                <td>Украина</td>
+                <td>Киев</td>
+                <td>99999</td>
+                <td>12358</td>
+                <td>Украинцы</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+</body>
+</html>
